@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_noise"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/main_back"
+    android:orientation="vertical"
+    tools:context="com.example.administrator.soundanalysis.activity.NoiseActivity">
+    <com.example.administrator.soundanalysis.view.SoundView
+        android:layout_width="300dp"
+        android:layout_height="310dp"
+        android:background="@drawable/noise_disc"
+        android:id="@+id/imaNoise_disc"
+        android:layout_centerHorizontal="true"></com.example.administrator.soundanalysis.view.SoundView>
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:text="@string/wait"
+        android:layout_below="@+id/imaNoise_disc"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:id="@+id/messageText"
+        android:background="@drawable/result_text"/>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="10dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true">
+        <Button
+            android:layout_width="54dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/startb"
+            android:id="@+id/buttons"
+           />
+
+        <Button
+            android:layout_width="54dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/change_button"
+            android:id="@+id/buttonc"
+            android:layout_marginLeft="40dp"
+            />
+
+        <Button
+            android:layout_width="54dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/stopb"
+            android:id="@+id/buttonp"
+            android:layout_marginLeft="40dp"
+            />
+    </LinearLayout>
+</RelativeLayout>

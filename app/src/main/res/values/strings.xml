@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Sound analysis</string>
+
+   <string name="normal">声音小于50分贝，属于比较安静的环境</string>
+    <string name="inormal1">声音超过50分贝，会影响睡眠和休息</string>
+    <string name="inormal2">声音超过70分贝，干扰谈话，造成心烦意乱，精神不集中，影响工作效率，甚至发生事故</string>
+    <string name="inormal3">声音超过90分贝，长期工作或生活在90分贝以上的噪声环境，会严重影响听力和导致其他疾病的发生</string>
+
+    <string name="wait">waiting... ...</string>
+
+    <string name="selectHz">选择采样频率:</string>
+    <string name="selecttimes">选择刷新时间：</string>
+    <string name="timehint">默认值为2s</string>
+    <string name="hzhint">默认为44100</string>
+</resources>
